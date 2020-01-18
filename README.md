@@ -1,4 +1,5 @@
-# intro_cryptography
+# intro_cryptography  
+[Разбор в статье про простые шифры на Код Конторе](https://code-kontora.ru/?go=all/intro-cryptography/)
 
 ## [caesar.py](/caesar.py)  
 Шифр Цезаря с рандомным сдвигом вправо от 3 до 7  
@@ -12,4 +13,4 @@
 Чистый алгоритм RSA без разбора на блоки, соли и перемешивания.  
 Для работы нужны дополнительные алгоритмы для поиска простых чисел и вычисления закрытой экспоненты `d`:  
 - [gcd_extended.py](gcd_extended.py) – расширенный алгоритм Евклида для вычисления закрытой экспоненты  
-- [miller_rabin.py](miller_rabin.py) и [prime_numbers.py](prime_numbers.py) нужны для проверки и поиска простых чисел, [описание алгоритмов в репозитории тестов на простоту](https://github.com/CodeKontora/primality_tests)
+- [miller_rabin.py](miller_rabin.py) и [prime_numbers.py](prime_numbers.py) нужны для проверки и поиска простых чисел, [описание этих алгоритмов в репозитории тестов на простоту](https://github.com/CodeKontora/primality_tests)
